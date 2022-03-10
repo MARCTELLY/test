@@ -7,7 +7,7 @@ class kokoClass(coco: kokoType, sizing:Int) extends cocoInterface[kokoType]{
 
   override def isTree(): Boolean = getType == Place
 
-  def get_obj(name: String) = println(
+  def get_obj(name: String): Unit = println(
       s"votre objet est de type ${getType} et est de taille ${sizing} avec un nom : ${name}"
   )
 
